@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css" />
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html">
+            <img id="logo" src="img/logo.png" alt="Logotipo Portal Saúde" />
+        </a>
+        <nav>
+            <a href="index.html">Página Inicial</a>
+            <a href="sobre.html">Sobre o Projeto</a>
+            <a href="equipe.html">Nossa Equipe</a>
+        </nav>
+    </header>
+
+        <div id="container">
+            <div>
+                <h1>Casos de Covid-19 Por Países</h1>
+                <div class="margin" id="regions_div"></div>
+            </div>
+            
+            <div>
+                <h1>Casos de Covid-19 ao Redor do Mundo</h1>
+                <div class="margin" id="piechart_3d"></div>
+            </div>
+            
+            <div id="jonsom">
+                <h1>Casos de Covid-19 no Brasil por Estado</h1>
+                <div class="margin" id="table_div">
+                    <button id="btnObterDados" type="button" onclick="carregarDados();">
+                        Obter Dados
+                    </button>
+                    <div id="div-erro"></div>
+                    <table id="tabela-dados">
+                        <thead>
+                            <th>Sigla</th>
+                            <th>Estados</th>
+                            <th>Casos</th>
+                            <th>Mortes</th>
+                            <th>Suspeitos</th>
+                            <th id="resp-D">Descartados</th>
+                        </thead>
+                        <tbody id="linhas">
+                        </tbody>
+                        </table>
+                </div>
+            </div>
+        </div>
+
+    <footer>
+        <p>Desenvolvido por ©Ana Carolina e Bianca</p>
+    </footer>
+
+</body>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="js/scripts.js"></script>
+
+</html>

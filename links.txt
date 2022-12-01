@@ -1,0 +1,5 @@
+cores1:https://colorhunt.co/palette/313552b8405e2eb086eee6ce
+cores2:https://colorhunt.co/palette/000d6b9c19e0ff5da299ddcc
+Dados:https://covid19-brazil-api-docs.vercel.app/
+fonte de texto: Bell MT
+fonte para titulo: Georgia

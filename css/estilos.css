@@ -1,0 +1,366 @@
+body, html {
+    background-color: #f8f3e4;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    font-family: 'Bell MT';
+    color: #313552;
+}
+.container{
+    height: auto;
+}
+
+header {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#logo {
+    height: 8vh;
+    padding: 10px 20px;
+}
+ 
+
+
+header nav {
+    align-self: center;   
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: #B8405E;    
+    font-family: 'Bell MT';
+    font-size: 22px;
+    padding: 35px 35px; 
+    display: flex;
+    align-items: center;
+}
+
+nav a:hover {
+    color: rgb(21, 127, 141);
+}
+
+#dados{
+    overflow: auto;
+    display: flex;
+    border-radius: 10px;
+}
+#btnObterDados{
+    background-color: #f893bf;
+    color: white;
+    font-size: 20px;
+    border-color: #f893bf;
+    font-family: 'Bell MT';
+}
+#table_div{
+    overflow: auto;
+    font-family: 'Bell MT';
+  
+}
+#table_div.margin{
+    margin-bottom: 20px;
+}
+
+#btnObterDados:hover{
+    background-color: #FF5DA2;
+}
+th{
+    font-size: smaller;
+    font-family: 'Bell MT';
+
+}
+#jonsom{
+    margin-bottom: 60px;
+    height: 800px;
+    
+}
+tr{
+    background-color: #f893bf;
+    color: white;
+    font-family: 'Bell MT';
+}
+#tabela-dados{
+    font-family: 'Bell MT';
+    width: 800px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    table-layout: fixed;
+   
+
+}
+
+.listra{
+    background-color: #EFF5F5;
+    color: black;
+}
+
+footer {
+    background-color: #B8405E;
+    font-size: 25px;
+    font-family: 'Bell MT';
+    color: aliceblue;
+    width: 100%;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+@media (max-width: 600px) {
+    body
+    {
+        height: auto;
+    }
+    
+    #logo
+    {
+        display: none;
+    }
+
+    nav a 
+    {
+        padding: 20px 20px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    footer
+    {
+        padding: 15px 0px 15px;
+    }
+}
+
+#container {
+    display: flex;
+    max-width: 1200px;
+    max-height: fit-content; 
+    flex-direction: column;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Georgia';
+    margin: 50px 0px 50px;
+    gap: 30px;
+    flex: 1 0 auto;
+}
+
+#table_div {
+    font-size: 25px;
+    font-family: 'Bell MT';
+    height: 76%;
+    border-style: inset;
+    border-color: #99DDCC;
+    border-width: 22px;
+}
+
+#piechart_3d {
+    border-style: double;
+    border-color: #313552;
+    border-width: 10px;
+}
+
+.margin {
+    margin: 10px 30px 30px;
+}
+
+#equipe {
+    justify-content: center;
+    text-align: center;
+}
+
+
+h2 {
+    font-family: 'Bell MT';
+    font-size: 25px;
+    text-align: center;
+}
+
+#equipe h1, h2 {
+    margin: 0px 0px;
+}
+
+#equipe a {
+padding: 0px 50px;
+}
+
+@media (max-width: 600px)
+{
+    #container
+    {
+        width: 100%;
+        height: auto;
+        font-size: 15px;
+        margin: 50px 0px 0px;
+    }
+    #equipe p
+    {
+        font-size: 20px;
+    }
+    #resp-D{
+        font-size: 60%;
+    }
+    th{
+        font-size: 90%;
+    }
+    tr{
+        font-size: 90%;
+    }
+    td{
+        font-size: 90%;
+    }
+    #table_div{
+        height: 300px;
+        width: 100%; 
+    }
+    #jonsom{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #table_div.margin{
+        width: 80%;
+        margin: 0px;
+        padding: 0px;
+    }
+    #tabela-dados{
+        width: auto;
+    }
+}
+
+.titulo {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Georgia';
+}
+
+#alvo {
+    height: 120px;
+    margin: 25px 0px;
+    cursor: pointer;
+}
+
+#mensagem {
+    max-width: 50%;
+    font-size: 25px;
+    font-family: 'Bell MT';
+    text-align: justify;
+    background-color: #f8f3e4;
+}
+
+#linguagens {    
+    display: flex;
+    justify-content: space-between;
+    padding: auto;
+    gap: 15px;
+    flex: 1 0 auto;
+}
+
+.box-linguagem {
+    background-color: white;
+    border: 1px solid lightslategray;
+    border-radius: 10px;    
+    text-align: center;
+    margin-bottom: auto;
+}
+
+.box-linguagem img {
+    height: 120px;  
+    justify-content: center;
+    width: 100px;  
+    padding: 3% 36%
+}
+
+.box-linguagem p {
+    padding: 0px 20px;
+    text-align: justify;
+}
+
+.titulo-card {
+    background-color: #000D6B;
+    font-size: 20px;
+    color: white;
+    text-shadow: 1px 1px 2px #99DDCC;
+    text-align: center;
+}
+
+@media (max-width: 1000px)
+{
+    #mensagem
+    {
+        max-width: 100%;
+        margin: 40px;
+    }
+
+    #linguagens
+    {
+        flex-direction: column;
+        gap: 40px;
+        margin-bottom: 50px;
+    }
+}
+
+.section-equipe
+{
+    flex: 1 0 auto;
+}
+
+#perfil {
+    display: flex;
+    width: 100px;
+    padding: 50px 50px;
+    justify-content: space-between;
+}
+
+#equipe {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+#equipe a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+@media (max-width: 1000px)
+{
+
+    #equipe
+    {
+        flex-direction: column;
+        margin-bottom: 60px;
+    }
+
+    .titulo-equipe
+    {
+        font-size: 25px;
+        max-width: 300px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .sub-titulo-equipe
+    {
+        font-size: 25px;
+        max-width: 300px;
+        margin: auto;
+    }
+
+    
+}
